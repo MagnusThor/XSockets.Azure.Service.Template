@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "XSockets.Azure.Service", "XSockets.Azure.Service\XSockets.Azure.Service.ccproj", "{0D127271-0389-406F-B9E1-26E180618BAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkerRole", "WorkerRole\WorkerRole.csproj", "{A53D77D8-AAE1-479E-B546-3058041B1F38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XSockets.Azure.Service.Configuration", "XSockets.Azure.Service.Configuration\XSockets.Azure.Service.Configuration.csproj", "{8309D0D6-F64E-42F0-BDA6-24907D746865}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XSockets.Azure.Service.Host", "XSockets.Azure.Service.Host\XSockets.Azure.Service.Host.csproj", "{ED295251-C5A8-49E9-BC7E-E6D562783A7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XSockets.Azure.Service.Controllers", "XSockets.Azure.Service.Controllers\XSockets.Azure.Service.Controllers.csproj", "{0A9A1EDB-646F-476C-BCAF-83D68FB9A04A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D127271-0389-406F-B9E1-26E180618BAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D127271-0389-406F-B9E1-26E180618BAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D127271-0389-406F-B9E1-26E180618BAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D127271-0389-406F-B9E1-26E180618BAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A53D77D8-AAE1-479E-B546-3058041B1F38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A53D77D8-AAE1-479E-B546-3058041B1F38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A53D77D8-AAE1-479E-B546-3058041B1F38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A53D77D8-AAE1-479E-B546-3058041B1F38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8309D0D6-F64E-42F0-BDA6-24907D746865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8309D0D6-F64E-42F0-BDA6-24907D746865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8309D0D6-F64E-42F0-BDA6-24907D746865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8309D0D6-F64E-42F0-BDA6-24907D746865}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED295251-C5A8-49E9-BC7E-E6D562783A7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED295251-C5A8-49E9-BC7E-E6D562783A7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED295251-C5A8-49E9-BC7E-E6D562783A7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED295251-C5A8-49E9-BC7E-E6D562783A7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A9A1EDB-646F-476C-BCAF-83D68FB9A04A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A9A1EDB-646F-476C-BCAF-83D68FB9A04A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A9A1EDB-646F-476C-BCAF-83D68FB9A04A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A9A1EDB-646F-476C-BCAF-83D68FB9A04A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
