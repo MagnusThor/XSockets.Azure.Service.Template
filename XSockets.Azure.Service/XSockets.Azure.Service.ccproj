@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>1.8</ProductVersion>
-    <ProjectGuid>0d127271-0389-406f-b9e1-26e180618bae</ProjectGuid>
+    <ProjectGuid>56dc9e6c-d40d-4a9e-808a-3ade99315fe6</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>XSockets.Azure.Service</RootNamespace>
@@ -37,12 +37,12 @@
     <ServiceConfiguration Include="ServiceConfiguration.Cloud.cscfg" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WorkerRole\WorkerRole.csproj">
-      <Name>WorkerRole</Name>
-      <Project>{a53d77d8-aae1-479e-b546-3058041b1f38}</Project>
+    <ProjectReference Include="..\XSockets.WorkerRole\XSockets.WorkerRole.csproj">
+      <Name>XSockets.WorkerRole</Name>
+      <Project>{577d0b0f-84cf-4102-a525-1e977dfe113a}</Project>
       <Private>True</Private>
       <RoleType>Worker</RoleType>
-      <RoleName>WorkerRole</RoleName>
+      <RoleName>XSockets.WorkerRole</RoleName>
       <UpdateDiagnosticsConnectionStringOnPublish>True</UpdateDiagnosticsConnectionStringOnPublish>
     </ProjectReference>
   </ItemGroup>

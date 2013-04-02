@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ServiceDefinition name="XSockets.Azure.Service" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition" schemaVersion="2012-10.1.8">
-  <WorkerRole name="WorkerRole" vmsize="Small">
+  <WorkerRole name="XSockets.WorkerRole" vmsize="Small">
     <Imports>
-      <Import moduleName="Diagnostics" />
     </Imports>
     <Endpoints>
-      <InputEndpoint name="XSocketsEndpoint" protocol="tcp" port="10101" localPort="10100" />
+      <InputEndpoint name="XSocketsEndpoint" protocol="tcp" port="10101" localPort="10101" />
     </Endpoints>
     <ConfigurationSettings>
       <Setting name="XSocketsHostUri" />
+      <Setting name="XSocketsOrigins" />
     </ConfigurationSettings>
   </WorkerRole>
 </ServiceDefinition>

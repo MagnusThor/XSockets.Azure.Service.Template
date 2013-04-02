@@ -1,0 +1,9 @@
+C:\Projects\XSockets.NET\Releases\XSockets.Azure.Service\XSockets.Azure.Service\XSockets.Azure.Service.Controllers\obj\Debug\XSockets.Azure.Service.Controllers.csprojResolveAssemblyReference.cache
+C:\Projects\XSockets.NET\Releases\XSockets.Azure.Service\XSockets.Azure.Service\XSockets.Azure.Service.Controllers\bin\Debug\XSockets.Azure.Service.Controllers.dll
+C:\Projects\XSockets.NET\Releases\XSockets.Azure.Service\XSockets.Azure.Service\XSockets.Azure.Service.Controllers\bin\Debug\XSockets.Azure.Service.Controllers.pdb
+C:\Projects\XSockets.NET\Releases\XSockets.Azure.Service\XSockets.Azure.Service\XSockets.Azure.Service.Controllers\bin\Debug\XSockets.Core.Common.dll
+C:\Projects\XSockets.NET\Releases\XSockets.Azure.Service\XSockets.Azure.Service\XSockets.Azure.Service.Controllers\bin\Debug\XSockets.Core.dll
+C:\Projects\XSockets.NET\Releases\XSockets.Azure.Service\XSockets.Azure.Service\XSockets.Azure.Service.Controllers\bin\Debug\XSockets.Plugin.Framework.Core.dll
+C:\Projects\XSockets.NET\Releases\XSockets.Azure.Service\XSockets.Azure.Service\XSockets.Azure.Service.Controllers\bin\Debug\XSockets.Plugin.Framework.dll
+C:\Projects\XSockets.NET\Releases\XSockets.Azure.Service\XSockets.Azure.Service\XSockets.Azure.Service.Controllers\obj\Debug\XSockets.Azure.Service.Controllers.dll
+C:\Projects\XSockets.NET\Releases\XSockets.Azure.Service\XSockets.Azure.Service\XSockets.Azure.Service.Controllers\obj\Debug\XSockets.Azure.Service.Controllers.pdb
