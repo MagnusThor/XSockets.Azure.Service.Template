@@ -11,16 +11,18 @@ a project containing just a stub for a custom controller ( see XSockets.Azure.Se
 
 At http://xsockets.net/api/installation you will find futher information.
 
-# Settings
+## Settings
 
 The worker role has the following configuration settings
 
-Settings tab
+### Settings tab
 
--  "XSocketsHostUri", the Url that your clients connect to (IP/Hostname). default setting is ws://localhost:10101
+
+- "XSocketsHostUri", the Url that your clients connect to (IP/Hostname). default setting is ws://localhost:10101
 -  XSocketsOrigins", A comma separated list of origins ( locations ) that your XSockets.NET Service will accept traffic / connections from. Defaults to http://* and https://*
 
-- Endpoints tab
+
+### Endpoints tab
 
 "XSocketsEndpoint" , this is the TCP endpoint of the role.  The value of the port numbers specified must be assosiated with port specified in "XSocketsHostUri". Default 10101  
 
