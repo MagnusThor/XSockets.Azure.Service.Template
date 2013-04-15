@@ -25,10 +25,12 @@ namespace XSockets.WorkerRole.Host
             }
         }
 
-        public List<string> GetOrigins()
+
+        public HashSet<string> GetOrigins()
         {
-            var o = RoleEnvironment.GetConfigurationSettingValue("XSocketsOrigins");
-            return !string.IsNullOrEmpty(o) ? o.Split(',').ToList() : new List<string> { "*" };
+            var origins = RoleEnvironment.GetConfigurationSettingValue("XSocketsOrigins");
+            return  new HashSet<string>(!string.IsNullOrEmpty(origins) ? origins.Split(',').ToList() : new List<string> { "*" });
+
         }
 
         public IConfigurationSettings ConfigurationSettings

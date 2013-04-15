@@ -44,6 +44,9 @@
     <Reference Include="Microsoft.WindowsAzure.StorageClient, Version=1.7.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\WindowsAzure.Storage.1.7.0.0\lib\net35-full\Microsoft.WindowsAzure.StorageClient.dll</HintPath>
     </Reference>
+    <Reference Include="ServiceStack.Text">
+      <HintPath>..\packages\XSockets.Core.2.5.2\lib\net40\ServiceStack.Text.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.Services.Client" />
@@ -52,33 +55,40 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="XSockets.Core, Version=2.4.0.0, Culture=neutral, PublicKeyToken=d4437d3567d14259, processorArchitecture=MSIL">
+    <Reference Include="XSockets.Core, Version=2.5.2.0, Culture=neutral, PublicKeyToken=d4437d3567d14259, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\XSockets.Server.2.4\lib\net40\XSockets.Core.dll</HintPath>
+      <HintPath>..\packages\XSockets.Core.2.5.2\lib\net40\XSockets.Core.dll</HintPath>
     </Reference>
-    <Reference Include="XSockets.Core.Common, Version=2.4.0.0, Culture=neutral, PublicKeyToken=d4437d3567d14259, processorArchitecture=MSIL">
+    <Reference Include="XSockets.Core.Common, Version=2.5.2.0, Culture=neutral, PublicKeyToken=d4437d3567d14259, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\XSockets.Server.2.4\lib\net40\XSockets.Core.Common.dll</HintPath>
+      <HintPath>..\packages\XSockets.Core.2.5.2\lib\net40\XSockets.Core.Common.dll</HintPath>
     </Reference>
-    <Reference Include="XSockets.Core.Communication">
-      <HintPath>..\packages\XSockets.Server.2.4\lib\net40\XSockets.Core.Communication.dll</HintPath>
-    </Reference>
-    <Reference Include="XSockets.Extensibility.Handlers">
-      <HintPath>..\packages\XSockets.Server.2.4\lib\net40\XSockets.Extensibility.Handlers.dll</HintPath>
-    </Reference>
-    <Reference Include="XSockets.Plugin.Framework, Version=1.4.2.0, Culture=neutral, PublicKeyToken=d4437d3567d14259, processorArchitecture=MSIL">
+    <Reference Include="XSockets.Core.Communication, Version=2.5.2.0, Culture=neutral, PublicKeyToken=d4437d3567d14259, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\XSockets.Server.2.4\lib\net40\XSockets.Plugin.Framework.dll</HintPath>
+      <HintPath>..\packages\XSockets.Server.2.5.2\lib\net40\XSockets.Core.Communication.dll</HintPath>
     </Reference>
-    <Reference Include="XSockets.Plugin.Framework.Core, Version=1.4.2.0, Culture=neutral, PublicKeyToken=d4437d3567d14259, processorArchitecture=MSIL">
+    <Reference Include="XSockets.Extensibility.Handlers, Version=2.5.0.0, Culture=neutral, PublicKeyToken=d4437d3567d14259, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\XSockets.Server.2.4\lib\net40\XSockets.Plugin.Framework.Core.dll</HintPath>
+      <HintPath>..\packages\XSockets.Server.2.5.2\lib\net40\XSockets.Extensibility.Handlers.dll</HintPath>
     </Reference>
-    <Reference Include="XSockets.Protocol">
-      <HintPath>..\packages\XSockets.Server.2.4\lib\net40\XSockets.Protocol.dll</HintPath>
+    <Reference Include="XSockets.Plugin.Framework, Version=1.5.0.0, Culture=neutral, PublicKeyToken=d4437d3567d14259, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\XSockets.Core.2.5.2\lib\net40\XSockets.Plugin.Framework.dll</HintPath>
     </Reference>
-    <Reference Include="XSockets.Server">
-      <HintPath>..\packages\XSockets.Server.2.4\lib\net40\XSockets.Server.dll</HintPath>
+    <Reference Include="XSockets.Plugin.Framework.Core, Version=1.5.0.0, Culture=neutral, PublicKeyToken=d4437d3567d14259, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\XSockets.Core.2.5.2\lib\net40\XSockets.Plugin.Framework.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="XSockets.Protocol, Version=2.5.2.0, Culture=neutral, PublicKeyToken=d4437d3567d14259, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\XSockets.Server.2.5.2\lib\net40\XSockets.Protocol.dll</HintPath>
+    </Reference>
+    <Reference Include="XSockets.Serialization">
+      <HintPath>..\packages\XSockets.Core.2.5.2\lib\net40\XSockets.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="XSockets.Server, Version=2.5.2.0, Culture=neutral, PublicKeyToken=d4437d3567d14259, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\XSockets.Server.2.5.2\lib\net40\XSockets.Server.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -89,7 +99,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\XSockets.Azure.Service.Controllers\XSockets.Azure.Service.Controllers.csproj">

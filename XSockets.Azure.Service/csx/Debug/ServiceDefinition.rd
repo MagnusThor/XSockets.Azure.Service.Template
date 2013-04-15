@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="XSockets.Azure.Service" generation="1" functional="0" release="0" Id="63665189-da4f-4ac9-9139-0c071c0c0072" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
+<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="XSockets.Azure.Service" generation="1" functional="0" release="0" Id="79c4787f-a83b-441e-b3c8-afbdd508428c" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
   <groups>
     <group name="XSockets.Azure.ServiceGroup" generation="1" functional="0" release="0">
       <componentports>
@@ -52,7 +52,7 @@
       </maps>
       <components>
         <groupHascomponents>
-          <role name="XSockets.WorkerRole" generation="1" functional="0" release="0" software="C:\Projects\XSockets.NET\Releases\XSockets.Azure.Service\XSockets.Azure.Service\XSockets.Azure.Service\csx\Debug\roles\XSockets.WorkerRole" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaWorkerHost.exe " memIndex="1792" hostingEnvironment="consoleroleadmin" hostingEnvironmentVersion="2">
+          <role name="XSockets.WorkerRole" generation="1" functional="0" release="0" software="C:\Users\MagnusT\Documents\GitHub\XSockets.Azure.Service.Template\XSockets.Azure.Service\csx\Debug\roles\XSockets.WorkerRole" entryPoint="base\x64\WaHostBootstrapper.exe" parameters="base\x64\WaWorkerHost.exe " memIndex="1792" hostingEnvironment="consoleroleadmin" hostingEnvironmentVersion="2">
             <componentports>
               <inPort name="XSocketsEndpoint" protocol="tcp" portRanges="10101" />
             </componentports>
@@ -81,9 +81,9 @@
     </group>
   </groups>
   <implements>
-    <implementation Id="462a8220-7912-4c18-9004-2b3a255c083b" ref="Microsoft.RedDog.Contract\ServiceContract\XSockets.Azure.ServiceContract@ServiceDefinition">
+    <implementation Id="3a121f62-a115-498f-9de3-681a0d6009b6" ref="Microsoft.RedDog.Contract\ServiceContract\XSockets.Azure.ServiceContract@ServiceDefinition">
       <interfacereferences>
-        <interfaceReference Id="908d61f0-6a7b-40f6-8b0c-4c729ca0ecc3" ref="Microsoft.RedDog.Contract\Interface\XSockets.WorkerRole:XSocketsEndpoint@ServiceDefinition">
+        <interfaceReference Id="15f19772-5e9b-42e4-aab3-e15c360b4437" ref="Microsoft.RedDog.Contract\Interface\XSockets.WorkerRole:XSocketsEndpoint@ServiceDefinition">
           <inPort>
             <inPortMoniker name="/XSockets.Azure.Service/XSockets.Azure.ServiceGroup/XSockets.WorkerRole:XSocketsEndpoint" />
           </inPort>

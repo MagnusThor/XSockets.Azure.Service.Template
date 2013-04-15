@@ -26,7 +26,7 @@ namespace XSockets.WorkerRole
             host.Start();
 
             // Just display the known plugins (XSockets Contollers )
-            foreach (var plugin in host._wss.XSocketPlugins)
+            foreach (var plugin in host.Wss.XSocketPlugins)
             {
                 Trace.WriteLine(string.Format("Plugin {0} is registred and ready",plugin.Value.Alias));
             }
@@ -34,7 +34,7 @@ namespace XSockets.WorkerRole
             while (true)
             {
                 Thread.Sleep(10000);
-                Trace.WriteLine(string.Format("Number of connections so far {0}", host._wss.TotalNumberOfConnections));
+                Trace.WriteLine(string.Format("Number of connections so far {0}", host.Wss.TotalNumberOfConnections));
             }
         }
 

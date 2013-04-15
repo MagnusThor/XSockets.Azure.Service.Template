@@ -7,3 +7,14 @@ C:\Projects\XSockets.NET\Releases\XSockets.Azure.Service\XSockets.Azure.Service\
 C:\Projects\XSockets.NET\Releases\XSockets.Azure.Service\XSockets.Azure.Service\XSockets.Azure.Service.Controllers\bin\Debug\XSockets.Plugin.Framework.dll
 C:\Projects\XSockets.NET\Releases\XSockets.Azure.Service\XSockets.Azure.Service\XSockets.Azure.Service.Controllers\obj\Debug\XSockets.Azure.Service.Controllers.dll
 C:\Projects\XSockets.NET\Releases\XSockets.Azure.Service\XSockets.Azure.Service\XSockets.Azure.Service.Controllers\obj\Debug\XSockets.Azure.Service.Controllers.pdb
+C:\Users\MagnusT\Documents\GitHub\XSockets.Azure.Service.Template\XSockets.Azure.Service.Controllers\bin\Debug\XSockets.Azure.Service.Controllers.dll
+C:\Users\MagnusT\Documents\GitHub\XSockets.Azure.Service.Template\XSockets.Azure.Service.Controllers\bin\Debug\XSockets.Azure.Service.Controllers.pdb
+C:\Users\MagnusT\Documents\GitHub\XSockets.Azure.Service.Template\XSockets.Azure.Service.Controllers\bin\Debug\ServiceStack.Text.dll
+C:\Users\MagnusT\Documents\GitHub\XSockets.Azure.Service.Template\XSockets.Azure.Service.Controllers\bin\Debug\XSockets.Core.Common.dll
+C:\Users\MagnusT\Documents\GitHub\XSockets.Azure.Service.Template\XSockets.Azure.Service.Controllers\bin\Debug\XSockets.Core.dll
+C:\Users\MagnusT\Documents\GitHub\XSockets.Azure.Service.Template\XSockets.Azure.Service.Controllers\bin\Debug\XSockets.Plugin.Framework.Core.dll
+C:\Users\MagnusT\Documents\GitHub\XSockets.Azure.Service.Template\XSockets.Azure.Service.Controllers\bin\Debug\XSockets.Plugin.Framework.dll
+C:\Users\MagnusT\Documents\GitHub\XSockets.Azure.Service.Template\XSockets.Azure.Service.Controllers\bin\Debug\XSockets.Serialization.dll
+C:\Users\MagnusT\Documents\GitHub\XSockets.Azure.Service.Template\XSockets.Azure.Service.Controllers\obj\Debug\XSockets.Azure.Service.Controllers.csprojResolveAssemblyReference.cache
+C:\Users\MagnusT\Documents\GitHub\XSockets.Azure.Service.Template\XSockets.Azure.Service.Controllers\obj\Debug\XSockets.Azure.Service.Controllers.dll
+C:\Users\MagnusT\Documents\GitHub\XSockets.Azure.Service.Template\XSockets.Azure.Service.Controllers\obj\Debug\XSockets.Azure.Service.Controllers.pdb

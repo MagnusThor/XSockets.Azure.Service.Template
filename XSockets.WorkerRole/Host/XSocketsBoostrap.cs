@@ -7,22 +7,22 @@ namespace XSockets.WorkerRole.Host
     public class XSocketsBoostrap
     {
         [ImportOne(typeof(IXBaseServerContainer))]
-        public IXBaseServerContainer _wss { get; set; }
+        public IXBaseServerContainer Wss { get; set; }
 
         public XSocketsBoostrap()
         {
-            this.ComposeMe();
+            Wss = XSockets.Plugin.Framework.Composable.GetExport<IXBaseServerContainer>();
         }
 
         public void Start()
         {
 
-            _wss.StartServers();
+            Wss.StartServers();
         }
 
         public void Stop()
         {
-            _wss.StopServers();
+            Wss.StopServers();
         }
     }
 }

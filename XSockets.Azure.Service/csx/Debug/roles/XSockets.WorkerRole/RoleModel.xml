@@ -13,7 +13,7 @@
     <Property name="Configuration" value="Debug" />
     <Property name="Platform" value="AnyCPU" />
     <Property name="RoleTargetFramework" value="v4.5" />
-    <Property name="OutputDir" value="C:\Projects\XSockets.NET\Releases\XSockets.Azure.Service\XSockets.Azure.Service\XSockets.Azure.Service\obj\Debug\XSockets.WorkerRole\" />
+    <Property name="OutputDir" value="C:\Users\MagnusT\Documents\GitHub\XSockets.Azure.Service.Template\XSockets.Azure.Service\obj\Debug\XSockets.WorkerRole\" />
     <Property name="EntryPoint" value="XSockets.WorkerRole.dll" />
     <Property name="SourceDir" value="" />
     <Property name="SitePhysicalPath" value="" />

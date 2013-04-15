@@ -16,3 +16,5 @@ C:\Projects\XSockets.NET\Releases\XSockets.Azure.Service\XSockets.Azure.Service\
 C:\Projects\XSockets.NET\Releases\XSockets.Azure.Service\XSockets.Azure.Service\XSockets.Azure.Service\obj\Debug\XSockets.WorkerRole\XSockets.WorkerRole.dll
 C:\Projects\XSockets.NET\Releases\XSockets.Azure.Service\XSockets.Azure.Service\XSockets.Azure.Service\obj\Debug\XSockets.WorkerRole\XSockets.WorkerRole.dll.config
 C:\Projects\XSockets.NET\Releases\XSockets.Azure.Service\XSockets.Azure.Service\XSockets.Azure.Service\obj\Debug\XSockets.WorkerRole\XSockets.WorkerRole.pdb
+C:\Users\MagnusT\Documents\GitHub\XSockets.Azure.Service.Template\XSockets.Azure.Service\bin\Debug\ServiceConfiguration.cscfg
+C:\Users\MagnusT\Documents\GitHub\XSockets.Azure.Service.Template\XSockets.Azure.Service\bin\Debug\ServiceDefinition.csdef

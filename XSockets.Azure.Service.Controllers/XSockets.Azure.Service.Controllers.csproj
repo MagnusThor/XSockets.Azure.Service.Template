@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ServiceStack.Text">
+      <HintPath>..\packages\XSockets.Core.2.5.2\lib\net40\ServiceStack.Text.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -37,16 +40,32 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="XSockets.Core">
-      <HintPath>..\packages\XSockets.Core.2.4\lib\net40\XSockets.Core.dll</HintPath>
+    <Reference Include="XSockets.Core, Version=2.5.2.0, Culture=neutral, PublicKeyToken=d4437d3567d14259, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\XSockets.Core.2.5.2\lib\net40\XSockets.Core.dll</HintPath>
     </Reference>
-    <Reference Include="XSockets.Core.Common">
-      <HintPath>..\XSockets.WorkerRole\bin\Debug\XSockets.Core.Common.dll</HintPath>
+    <Reference Include="XSockets.Core.Common, Version=2.5.2.0, Culture=neutral, PublicKeyToken=d4437d3567d14259, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\XSockets.Core.2.5.2\lib\net40\XSockets.Core.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="XSockets.Plugin.Framework, Version=1.5.0.0, Culture=neutral, PublicKeyToken=d4437d3567d14259, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\XSockets.Core.2.5.2\lib\net40\XSockets.Plugin.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="XSockets.Plugin.Framework.Core, Version=1.5.0.0, Culture=neutral, PublicKeyToken=d4437d3567d14259, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\XSockets.Core.2.5.2\lib\net40\XSockets.Plugin.Framework.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="XSockets.Serialization">
+      <HintPath>..\packages\XSockets.Core.2.5.2\lib\net40\XSockets.Serialization.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Safari.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
