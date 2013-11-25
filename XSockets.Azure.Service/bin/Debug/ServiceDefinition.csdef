@@ -14,12 +14,17 @@
       <Import moduleName="Diagnostics" />
     </Imports>
     <Endpoints>
-      <InputEndpoint name="XSocketsEndpoint1" protocol="tcp" port="4510" />
-      <InputEndpoint name="XSocketsEndpoint2" protocol="tcp" port="4511" />
+      <InputEndpoint name="XSocketsEndpoint1" protocol="tcp" port="4510" localPort="4510" />
+      <InputEndpoint name="XSocketsEndpoint2" protocol="tcp" port="4511" localPort="4511" />
     </Endpoints>
     <ConfigurationSettings>
       <Setting name="XSocketsHostUri" />
       <Setting name="XSocketsOrigins" />
     </ConfigurationSettings>
+    <Contents>
+      <Content destination=".\">
+        <SourceDirectory path="C:\Users\Magnus Thor\Documents\GitHub\XSockets.Azure.Service.Template\XSockets.Azure.Service\rcf\Debug\XSockets3x.WorkerRoleContent\" />
+      </Content>
+    </Contents>
   </WorkerRole>
 </ServiceDefinition>

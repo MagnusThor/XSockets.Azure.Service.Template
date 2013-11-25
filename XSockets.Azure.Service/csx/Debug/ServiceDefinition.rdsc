@@ -1,7 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<serviceContract xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" dslVersion="1.0.0.0" name="XSockets.Azure.ServiceContract" xmlns="http://schemas.microsoft.com/dsltools/Contracts">
-  <elements>
-    <interface name="XSockets3x.WorkerRole:XSocketsEndpoint1" url="tcp://*:4510" />
-    <interface name="XSockets3x.WorkerRole:XSocketsEndpoint2" url="tcp://*:4511" />
-  </elements>
-</serviceContract>
