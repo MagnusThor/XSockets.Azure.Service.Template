@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>1.8</ProductVersion>
+    <ProductVersion>2.2</ProductVersion>
     <ProjectGuid>56dc9e6c-d40d-4a9e-808a-3ade99315fe6</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -37,19 +37,31 @@
     <ServiceConfiguration Include="ServiceConfiguration.Cloud.cscfg" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\XSockets.WorkerRole\XSockets.WorkerRole.csproj">
-      <Name>XSockets.WorkerRole</Name>
-      <Project>{577d0b0f-84cf-4102-a525-1e977dfe113a}</Project>
+    <Folder Include="XSockets3x.WorkerRoleContent\" />
+    <Folder Include="XSockets3xContent\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="XSockets3x.WorkerRoleContent\diagnostics.wadcfg">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="XSockets3xContent\diagnostics.wadcfg">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\XSockets3x.WorkerRole\XSockets3x.WorkerRole.csproj">
+      <Name>XSockets3x.WorkerRole</Name>
+      <Project>{85c48729-8e25-4724-9f1a-995644112496}</Project>
       <Private>True</Private>
       <RoleType>Worker</RoleType>
-      <RoleName>XSockets.WorkerRole</RoleName>
+      <RoleName>XSockets3x.WorkerRole</RoleName>
       <UpdateDiagnosticsConnectionStringOnPublish>True</UpdateDiagnosticsConnectionStringOnPublish>
     </ProjectReference>
   </ItemGroup>
   <!-- Import the target files for this project template -->
   <PropertyGroup>
     <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
-    <CloudExtensionsDir Condition=" '$(CloudExtensionsDir)' == '' ">$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Windows Azure Tools\1.8\</CloudExtensionsDir>
+    <CloudExtensionsDir Condition=" '$(CloudExtensionsDir)' == '' ">$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Windows Azure Tools\2.2\</CloudExtensionsDir>
   </PropertyGroup>
   <Import Project="$(CloudExtensionsDir)Microsoft.WindowsAzure.targets" />
 </Project>

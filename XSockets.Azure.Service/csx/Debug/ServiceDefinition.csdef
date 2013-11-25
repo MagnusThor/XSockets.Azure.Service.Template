@@ -1,15 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ServiceDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="XSockets.Azure.Service" schemaVersion="2012-10.1.8" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition">
-  <WorkerRole name="XSockets.WorkerRole">
+<ServiceDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="XSockets.Azure.Service" schemaVersion="2013-10.2.2" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceDefinition">
+  <WorkerRole name="XSockets3x.WorkerRole">
     <LocalResources>
       <LocalStorage name="DiagnosticStore" sizeInMB="4096" cleanOnRoleRecycle="false" />
     </LocalResources>
     <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" />
       <Setting name="XSocketsHostUri" />
       <Setting name="XSocketsOrigins" />
     </ConfigurationSettings>
     <Endpoints>
-      <InputEndpoint name="XSocketsEndpoint" protocol="tcp" port="10101" localPort="10101" />
+      <InputEndpoint name="XSocketsEndpoint1" protocol="tcp" port="4510" localPort="4510" />
+      <InputEndpoint name="XSocketsEndpoint2" protocol="tcp" port="4511" localPort="4511" />
     </Endpoints>
     <Certificates />
   </WorkerRole>

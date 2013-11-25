@@ -1,1 +1,0 @@
-XSockets.WorkerRole.dll
