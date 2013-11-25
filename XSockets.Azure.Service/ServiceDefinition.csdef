@@ -5,8 +5,8 @@
       <Import moduleName="Diagnostics" />
     </Imports>
     <Endpoints>
-      <InputEndpoint name="XSocketsEndpoint1" protocol="tcp" port="4510" />
-      <InputEndpoint name="XSocketsEndpoint2" protocol="tcp" port="4511" />
+      <InputEndpoint name="XSocketsEndpoint1" protocol="tcp" port="4510" localPort="4510" />
+      <InputEndpoint name="XSocketsEndpoint2" protocol="tcp" port="4511" localPort="4511" />
     </Endpoints>
     <ConfigurationSettings>
       <Setting name="XSocketsHostUri" />
